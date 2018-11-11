@@ -1,10 +1,6 @@
-# EPIC Orientation
+# Installation and set up instructions for orientation sessions
 
-Repo for all orientation training materials
-
-## Installation and set up instructions for orientation sessions
-
-### Git
+### <a name="git"></a>Git
 
 ##### Download and Install Software
 
@@ -42,7 +38,7 @@ git config --global alias.lol "log --graph --oneline --decorate --color --all"
 
 These installation and setup instructions were copied liberally from these [lecture notes](https://ocw.mit.edu/ans7870/6/6.005/s16/getting-started/#terminal). I would highly recommend perusing these notes (skipping all the Java install stuff) but at least the last bit about the git workflow and playing around with a repository on [Github](https://github.com/)
 
-### Python
+### <a name="python"></a>Python
 
 ##### Download Anaconda
 
@@ -70,7 +66,7 @@ conda install chromedriver
 
 Python comes with IDLE which is a text editor but is not the best in my opinion. Many RAs prefer [Sublime](https://www.sublimetext.com/) as a text editor for most languages. 
 
-### R
+### <a name="r"></a>R
 
 ##### Download R
 
@@ -87,7 +83,7 @@ Navigate to your command-line and run:
 Rscript -e 'install.packages(c("tidyverse", "lfe", "sf", "ggplot2"), repos = "https://cran.rstudio.com/")'
 ```
 
-### LaTeX
+### <a name="latex"></a>LaTeX
 
 The LaTeX tutorial itself will be done using Overleaf but software installation is still required to compile pdfs on your local machine. These are just some preferred software from RAs who frequently use LaTeX.
 
@@ -99,7 +95,7 @@ If you have a Mac, a preferred LaTeX software is [TeXShop](https://pages.uoregon
 
 If you're on a Windows machine, a preferred LaTeX software is [TexMaker](http://www.xm1math.net/texmaker/) which also runs on Mac.
 
-### Stata
+### <a name="stata"></a>Stata
 
 You all already have Stata on your machines (if you don't please talk to one of us ASAP). For the data project you will need to install a few user-written packages, some by our very own Andrew Smith!
 

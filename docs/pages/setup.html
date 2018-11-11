@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="2018.html" />
+    <link rel="next" href="setup.html" />
     
     
     <link rel="prev" href="../" />
@@ -112,6 +112,77 @@
                 </a>
             
 
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="setup.html">
+            
+                <a href="setup.html#git">
+            
+                    
+                    Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="setup.html">
+            
+                <a href="setup.html#python">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="setup.html">
+            
+                <a href="setup.html#r">
+            
+                    
+                    R
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="setup.html">
+            
+                <a href="setup.html#latex">
+            
+                    
+                    LaTeX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="setup.html">
+            
+                <a href="setup.html#stata">
+            
+                    
+                    Stata
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -173,10 +244,8 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="epic-orientation">EPIC Orientation</h1>
-<p>Repo for all orientation training materials</p>
-<h2 id="installation-and-set-up-instructions-for-orientation-sessions">Installation and set up instructions for orientation sessions</h2>
-<h3 id="git">Git</h3>
+                                <h1 id="installation-and-set-up-instructions-for-orientation-sessions">Installation and set up instructions for orientation sessions</h1>
+<h3 id="git"><a name="git"></a>Git</h3>
 <h5 id="download-and-install-software">Download and Install Software</h5>
 <p>We will be using the command-line interface to <a href="https://www.git-scm.com/" target="_blank">Git</a>. Download is available at the link for those who do not already have the software installed. Once installed, Windows users should look for Git Bash, Mac and Linux will now have git embedded in Terminal. Navigate to either Git Bash or Terminal to run all command-line prompts.</p>
 <p>If you are unfamiliar with the command-line, I found these notes helpful:</p>
@@ -197,7 +266,7 @@ git config --global color.grep auto
 </code></pre><p>The command <code>git log</code> basically allows you to view the history of your repository. There is a way to make this more human readable so I create the alias <code>git lol</code> by running the following command.</p>
 <pre><code>git config --global alias.lol &quot;log --graph --oneline --decorate --color --all&quot;
 </code></pre><p>These installation and setup instructions were copied liberally from these <a href="https://ocw.mit.edu/ans7870/6/6.005/s16/getting-started/#terminal" target="_blank">lecture notes</a>. I would highly recommend perusing these notes (skipping all the Java install stuff) but at least the last bit about the git workflow and playing around with a repository on <a href="https://github.com/" target="_blank">Github</a></p>
-<h3 id="python">Python</h3>
+<h3 id="python"><a name="python"></a>Python</h3>
 <h5 id="download-anaconda">Download Anaconda</h5>
 <p>Because Python is an open-source software, you will find yourself needing to use many packages. There are many package managers available but I would recommend <a href="https://www.anaconda.com/download" target="_blank">Anaconda</a> since that is what SCC uses. </p>
 <h5 id="use-anaconda-to-install-python">Use Anaconda to install Python</h5>
@@ -211,7 +280,7 @@ conda install -c conda-forge selenium
 conda install chromedriver
 </code></pre><h5 id="text-editor">Text editor</h5>
 <p>Python comes with IDLE which is a text editor but is not the best in my opinion. Many RAs prefer <a href="https://www.sublimetext.com/" target="_blank">Sublime</a> as a text editor for most languages. </p>
-<h3 id="r">R</h3>
+<h3 id="r"><a name="r"></a>R</h3>
 <h5 id="download-r">Download R</h5>
 <p>Here is the <a href="https://cran.rstudio.com/" target="_blank">link</a> to download R</p>
 <h5 id="set-up-rstudio">Set Up RStudio</h5>
@@ -219,13 +288,13 @@ conda install chromedriver
 <h5 id="install-packages-for-r">Install packages for R</h5>
 <p>Navigate to your command-line and run:</p>
 <pre><code>Rscript -e &apos;install.packages(c(&quot;tidyverse&quot;, &quot;lfe&quot;, &quot;sf&quot;, &quot;ggplot2&quot;), repos = &quot;https://cran.rstudio.com/&quot;)&apos;
-</code></pre><h3 id="latex">LaTeX</h3>
+</code></pre><h3 id="latex"><a name="latex"></a>LaTeX</h3>
 <p>The LaTeX tutorial itself will be done using Overleaf but software installation is still required to compile pdfs on your local machine. These are just some preferred software from RAs who frequently use LaTeX.</p>
 <h5 id="mac-os">Mac OS</h5>
 <p>If you have a Mac, a preferred LaTeX software is <a href="https://pages.uoregon.edu/koch/texshop/" target="_blank">TeXShop</a>. </p>
 <h5 id="windows">Windows</h5>
 <p>If you&apos;re on a Windows machine, a preferred LaTeX software is <a href="http://www.xm1math.net/texmaker/" target="_blank">TexMaker</a> which also runs on Mac.</p>
-<h3 id="stata">Stata</h3>
+<h3 id="stata"><a name="stata"></a>Stata</h3>
 <p>You all already have Stata on your machines (if you don&apos;t please talk to one of us ASAP). For the data project you will need to install a few user-written packages, some by our very own Andrew Smith!</p>
 <p>Unfortunately, Stata does not integrate well with the command-line so navigate to your Stata command prompt and copy/paste the following in there in one block.</p>
 <pre><code>* Install ftools (remove program if it existed previously)
@@ -296,7 +365,7 @@ ssc install egenmore
                 </a>
                 
                 
-                <a href="2018.html" class="navigation navigation-next " aria-label="Next page: Orientation 2018">
+                <a href="setup.html#git" class="navigation navigation-next " aria-label="Next page: Git">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -307,7 +376,7 @@ ssc install egenmore
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Installation guide","level":"1.2","depth":1,"next":{"title":"Orientation 2018","level":"1.3","depth":1,"path":"pages/2018.md","ref":"pages/2018.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"pages/setup.md","mtime":"2018-11-11T20:48:20.981Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-11T21:15:02.371Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Installation guide","level":"1.2","depth":1,"next":{"title":"Git","level":"1.2.1","depth":2,"anchor":"#git","path":"pages/setup.md","ref":"pages/setup.md#git","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"pages/setup.md","mtime":"2018-11-11T21:38:58.868Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-11T21:39:11.126Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
