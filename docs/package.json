@@ -1,19 +1,19 @@
 {
   "name": "EPIC-starterkit",
   "version": "1.0.0",
-  "description": "CIL tutorials",
+  "description": "RA orientation session",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epic-uchicago/cil.github.io.git"
+    "url": "git+https://github.com/epic-uchicago/events.github.io"
   },
   "author": "EPIC starterkit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/epic-uchicago/cil.github.io/issues"
+    "url": "https://github.com/epic-uchicago/events.github.io/issues"
   },
   "devDependencies": {
     "child_process": "^1.0.2",
@@ -21,5 +21,5 @@
     "gulp": "4.0.0",
     "gulp-load-plugins": "^1.5.0"
   },
-  "homepage": "https://github.com/epic-uchicago/cil.github.io"
+  "homepage": "https://github.com/epic-uchicago/events.github.io"
 }
